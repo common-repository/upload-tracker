@@ -1,0 +1,61 @@
+#wpadminbar #wp-admin-bar-uptkk .ab-icon:before {
+    content: '\f103';
+    top: 3px;
+}
+
+#wpadminbar #wp-admin-bar-uptkk .uut-green:before {
+    color: green;
+}
+
+#wpadminbar #wp-admin-bar-uptkk .ab-submenu .ab-item:hover{
+    background-color: #FFA100;
+}
+
+#wpadminbar #wp-admin-bar-uptkk .ab-item:hover{
+    cursor: pointer;
+}
+
+.utw_overlay {
+    height: 65%;
+    width: 0px;
+    position: fixed;
+    z-index: 999;
+    top: 15%;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: auto;
+    overflow-y: auto;
+    left: 50%;
+    transform: translate(-50%,0);
+    -webkit-transform: translate(-50%,0);
+    -moz-transform: translate(-50%,0);
+    -ms-transform: translate(-50%,0);
+}
+
+.utw_overlay_content {
+    position: relative;
+    margin-top: -13px;
+    margin-left: 45px;
+    color: white;
+}
+
+.utw_overlay .utw_closebtn {
+    position: sticky;
+    top: 12px;
+    font-size: 60px;
+    z-index: 1000;
+    margin-left: 92%;
+}
+
+.utw_overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+}
+
+.utw_overlay a:hover, .utw_overlay a:focus {
+    color: #f1f1f1;
+}
